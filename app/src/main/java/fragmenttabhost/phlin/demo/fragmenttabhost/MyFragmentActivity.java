@@ -24,13 +24,13 @@ public class MyFragmentActivity extends FragmentActivity {
             FragmentTwo.class,
             FragmentThree.class,};
     private int iconArray[] = {
-            R.drawable.icon_http,
-            R.drawable.icon_database,
-            R.drawable.icon_btimap};
+            R.drawable.user,
+            R.drawable.info,
+            R.drawable.exit};
     private String titleArray[] = {
-            "One",
-            "Two",
-            "Three"};
+            "",
+            "",
+            ""};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
